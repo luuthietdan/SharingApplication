@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "778985336802",
+    "firebase_url": "https://sharingapplication-e0f7b.firebaseio.com",
+    "project_id": "sharingapplication-e0f7b",
+    "storage_bucket": "sharingapplication-e0f7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778985336802:android:30c9b8369f5adba7",
+        "android_client_info": {
+          "package_name": "com.example.talong.sharingapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778985336802-5haac0r7fljn28sgghn2pk5881fcdi9q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.talong.sharingapplication",
+            "certificate_hash": "00705a56deb26eff323413c40c15fea8489c2219"
+          }
+        },
+        {
+          "client_id": "778985336802-eof60niskvb2nsg3pb8p5dppmee79f3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClNyPpvkXWlrjApE0fVd1qZ7RiwgOeszg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778985336802-eof60niskvb2nsg3pb8p5dppmee79f3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

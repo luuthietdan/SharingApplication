@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_profile"
+    tools:context=".PersonProfileActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgPersonProfile"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/circleimage"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:id="@+id/txtPersonFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile"
+                android:layout_below="@+id/imgPersonProfile"
+                android:layout_marginTop="5dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/post_size"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtPersonProfileUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile"
+                android:layout_below="@+id/txtPersonFullName"
+
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/username"
+
+                />
+            <TextView
+                android:id="@+id/txtPersonStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_status"
+                android:layout_below="@+id/txtPersonProfileUserName"
+
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/size_profile_status"
+
+                />
+            <TextView
+                android:id="@+id/txtPersonCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/country"
+                android:layout_below="@+id/txtPersonStatus"
+                android:layout_marginTop="60dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/size_profile_status"
+
+                />
+            <TextView
+                android:id="@+id/txtPersonDateOfBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:layout_below="@+id/txtPersonCountry"
+
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/profile_country"
+
+                />
+            <TextView
+                android:id="@+id/txtPersonGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gender"
+                android:layout_below="@+id/txtPersonDateOfBirth"
+
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/profile_country"
+
+                />
+            <TextView
+                android:id="@+id/txtPersonRelationShip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/relationship"
+                android:layout_below="@+id/txtPersonGender"
+
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/profile_country"
+
+                />
+            <Button
+                android:id="@+id/btnPersonSendRequest"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtPersonRelationShip"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:text="@string/request_friend"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/post_size"/>
+            <Button
+                android:id="@+id/btnDeclineRequest"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnPersonSendRequest"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:layout_centerHorizontal="true"
+                android:text="@string/decline_request"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/post_size"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

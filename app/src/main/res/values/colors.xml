@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ed4c54</color>
+    <color name="colorPrimaryDark">#67c415</color>
+    <color name="colorAccent">#E9EBEE</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#ffffff</color>
+    <color name="black">#211f1f</color>
+    <color name="dark_gray">#b4aeae</color>
+    <color name="border_post">#cb53d4</color>
+    <color name="background_profile">#6b9fd2</color>
+    <color name="main_background">#D7D7D7</color>
+    <color name="sendercolor">#bc38c6</color>
+</resources>

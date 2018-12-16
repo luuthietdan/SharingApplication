@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_profile"
+    tools:context=".FindFriendActivity">
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/find_friend_toolbar"/>
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_below="@+id/find_friend_toolbar"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtFriendId"
+            android:layout_centerHorizontal="true"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search for someone"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/search_text"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtSearchInput"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/txtFriendId"
+           android:layout_centerHorizontal="true"
+            android:hint="Search friend in here..."
+            android:padding="10dp"
+            android:background="@drawable/inputs"
+            android:ems="10"
+
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/background_profile"/>
+        <ImageButton
+            android:id="@+id/imgSearchFriend"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/txtFriendId"
+            android:layout_toRightOf="@id/edtSearchInput"
+            android:background="@drawable/custom_button"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/searchfriend"/>
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvListFriend"
+        android:layout_margin="10dp"
+        android:layout_below="@id/myLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

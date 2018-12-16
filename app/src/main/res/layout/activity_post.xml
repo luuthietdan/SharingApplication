@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlogin"
+    tools:context=".PostActivity">
+    <include
+        android:id="@+id/update_post"
+        layout="@layout/app_bar_layout"/>
+    <ImageView
+        android:id="@+id/imgChoicePicture"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/update_post"
+        android:src="@drawable/choicepicture"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/edtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imgChoicePicture"
+        android:hint="@string/your_status"
+        android:background="@drawable/inputs"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+    <Button
+
+        android:background="@drawable/custom_button"
+        android:layout_below="@+id/edtStatus"
+        android:text="@string/update_post"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="@dimen/post_size"
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

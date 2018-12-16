@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/chat_app_bar"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/chat_app_bar"
+        android:layout_above="@+id/linearChat"
+        android:layout_centerHorizontal="true">
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:id="@+id/linearChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:background="@android:color/background_light">
+        <ImageButton
+            android:id="@+id/imgAddPhoto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/addphoto"/>
+        <EditText
+            android:id="@+id/edtInputMessage"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your message in here"
+            android:background="@drawable/inputs"
+            android:padding="10dp"/>
+        <ImageButton
+            android:id="@+id/imgSendMessage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/buttonsend"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

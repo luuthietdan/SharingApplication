@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">SharingApplication</string>
+    <string name="home">Home</string>
+    <string name="friends">Friends</string>
+    <string name="setting">Setting</string>
+    <string name="find_friends">Find Friends</string>
+    <string name="messages">Messages</string>
+    <string name="log_out">Log Out</string>
+    <string name="add_new_post">Add New Post</string>
+    <string name="profile">Profile</string>
+    <string name="username">Username</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="log_in">Log In</string>
+    <string name="click_here">Don\'t have account,Please click here.</string>
+    <string name="user_name">User Name</string>
+    <string name="country">Country</string>
+    <string name="save">Save</string>
+    <string name="your_status">Please Enter Your Status...</string>
+    <string name="update_post">Update Post</string>
+    <string name="date">Date</string>
+    <string name="update_your_status">Update your status...</string>
+    <string name="time">Time</string>
+    <string name="post_status">Post Status...</string>
+    <string name="edit_post">Edit Post</string>
+    <string name="delete_post">Delete Post</string>
+    <string name="profile_status">Profile status</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="relationship">Relationship</string>
+    <string name="update_account_setting">Update Account Setting</string>
+    <string name="full_name">Full Name</string>
+    <string name="user_status">User Status</string>
+    <string name="display_comment">Comment text display here...</string>
+    <string name="request_friend">Send Friend Request</string>
+    <string name="decline_request">Decline Friend Request</string>
+    <string name="send_message">Send Message</string>
+    <string name="receiver_message">Receiver message</string>
+
+</resources>

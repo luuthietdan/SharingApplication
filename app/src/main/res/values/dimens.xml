@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="post_size">20sp</dimen>
+    <dimen name="username">16sp</dimen>
+    <dimen name="status_size">13sp</dimen>
+    <dimen name="status">14sp</dimen>
+    <dimen name="left">15dp</dimen>
+    <dimen name="right">15dp</dimen>
+    <dimen name="size_profile_status">22sp</dimen>
+    <dimen name="profile_country">18sp</dimen>
+    <dimen name="search_text">18sp</dimen>
+    <dimen name="size_display_username">18sp</dimen>
+    <dimen name="size_likes">14sp</dimen>
+    <dimen name="username_comment">16sp</dimen>
+    <dimen name="date">14sp</dimen>
+    <dimen name="size_comment">16sp</dimen>
+    <dimen name="friends_size">25sp</dimen>
+    <dimen name="username_chat">18sp</dimen>
+    <dimen name="textsize_message">14sp</dimen>
+    <dimen name="size_button_post">16sp</dimen>
+</resources>
