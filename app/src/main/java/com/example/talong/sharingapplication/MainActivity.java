@@ -497,7 +497,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     private void SendUserToProfileActivity() {
         Intent loginIntent=new Intent(MainActivity.this,ProfileActivity.class);
-        loginIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+
         startActivity(loginIntent);
 
     }
