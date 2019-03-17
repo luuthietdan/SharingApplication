@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private Button mLogin;
     private EditText edtEmail,edtPassword;
     private TextView mtxtNewAccount;
-    private FirebaseAuth mAuthLamLong;
+    private FirebaseAuth mAuthLamLongFixed;
     private ProgressDialog progressDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_login);
         progressDialog=new ProgressDialog(this);
         Init();
-        mAuthLamLong=FirebaseAuth.getInstance();
+        mAuthLamLongFixed=FirebaseAuth.getInstance();
         mtxtNewAccount.setOnClickListener(this);
         mLogin.setOnClickListener(this);
     }
