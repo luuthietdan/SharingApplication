@@ -41,8 +41,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void SendUserToRegisterActivity() {
-        Intent registerIntent=new Intent(LoginActivity.this,RegisterActivity.class);
+        Intent registerIntent=new Intent(MainActivity.this,RegisterActivity.class);
         startActivity(registerIntent);
+        Bundle bundle = new Bundle();
         finish();
     }
 
