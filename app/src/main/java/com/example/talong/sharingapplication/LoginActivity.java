@@ -23,7 +23,7 @@ import com.google.firebase.auth.FirebaseUser;
 * Người chỉnh sửa: Lâm Thành Long
 * Nội dung chỉnh sửa: Fix bug khi đăng nhập
 * */
-public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
+public class LoginActivity extends AppCompatActivity{
     private Button mLogin;
     private EditText edtEmail,edtPassword;
     private TextView mtxtNewAccount;
@@ -36,15 +36,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         progressDialog=new ProgressDialog(this);
         Init();
         mAuthLamLong=FirebaseAuth.getInstance();
-        mtxtNewAccount.setOnClickListener(this);
-        mLogin.setOnClickListener(this);
-    }
-
-    private void SendUserToRegisterActivity() {
-        Intent registerIntent=new Intent(MainActivity.this,RegisterActivity.class);
-        startActivity(registerIntent);
-        Bundle bundle = new Bundle();
-        finish();
+        
     }
 
     private void Init() {
@@ -52,17 +44,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         edtEmail=findViewById(R.id.edtEmail);
         edtPassword=findViewById(R.id.edtPassword);
         mtxtNewAccount=findViewById(R.id.txtClick);
-    }
-
-    @Override
-    public void onClick(View v) {
-        if(v.getId()==mtxtNewAccount.getId()){
-            SendUserToRegisterActivity();
-        }
-        if (v.getId()==mLogin.getId()){
-           AllowingUserLogin();
-        }
-
     }
 
     @Override
