@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--Ngày tạo: 17/03/2019
+    Người tạo: Lâm Thành Long
+    Chức năng: Giao diện định vị vị trí
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Location">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vị trí"
+        android:textSize="24sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        />
+</LinearLayout>

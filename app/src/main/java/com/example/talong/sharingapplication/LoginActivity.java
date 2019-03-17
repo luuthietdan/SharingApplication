@@ -18,12 +18,16 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-
+/*
+* Ngày chỉnh sửa: 17/03/2019
+* Người chỉnh sửa: Lâm Thành Long
+* Nội dung chỉnh sửa: Fix bug khi đăng nhập
+* */
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
     private Button mLogin;
     private EditText edtEmail,edtPassword;
     private TextView mtxtNewAccount;
-    private FirebaseAuth mAuth;
+    private FirebaseAuth mAuthLamLong;
     private ProgressDialog progressDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +35,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_login);
         progressDialog=new ProgressDialog(this);
         Init();
-        mAuth=FirebaseAuth.getInstance();
+        mAuthLamLong=FirebaseAuth.getInstance();
         mtxtNewAccount.setOnClickListener(this);
         mLogin.setOnClickListener(this);
     }
@@ -63,7 +67,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onStart() {
         super.onStart();
-        FirebaseUser currentUser=mAuth.getCurrentUser();
+        FirebaseUser currentUser=mAuthLamLong.getCurrentUser();
         if (currentUser!=null){
             SendUserToMainActivity();
         }
@@ -86,7 +90,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             progressDialog.setTitle("Log In");
             progressDialog.setMessage("Please waite, while we are authenticating account...");
             progressDialog.show();
-            mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            mAuthLamLong.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
