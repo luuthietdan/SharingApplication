@@ -14,6 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"></activity>
+        <activity android:name=".FeatureActivity"></activity>
         <activity android:name=".CartActivity" />
         <activity android:name=".Location">
             <intent-filter>

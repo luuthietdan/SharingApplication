@@ -1,0 +1,62 @@
+[33mcommit 5cdf25c1c02c139f16d9a666ce96a8b9bf19d369[m[33m ([m[1;36mHEAD -> [m[1;32missue[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31morigin/Dev_talong[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Lâm Thành Long <lamthanhlong70@gmail.com>
+Date:   Sun Mar 17 14:48:05 2019 +0700
+
+    FixedBugLoginv2
+
+[33mcommit 22ea0bf42462bd2e75891662f9110e02605607e3[m
+Merge: ee684d0 463ffec
+Author: Lâm Thành Long <lamthanhlong70@gmail.com>
+Date:   Sun Mar 17 14:45:08 2019 +0700
+
+    Merge branch 'master' of https://github.com/luuthietdan/SharingApplication
+
+[33mcommit ee684d0d32b4339fef50d8a92d3aaaed0cc6de2d[m
+Author: Lâm Thành Long <lamthanhlong70@gmail.com>
+Date:   Sun Mar 17 14:45:01 2019 +0700
+
+    Update Login
+
+[33mcommit 463ffece7b0cb89cd39aaf35516916dcea91e260[m
+Author: Lâm Thành Long <lamthanhlong70@gmail.com>
+Date:   Sun Mar 17 14:44:21 2019 +0700
+
+    Update Login
+    
+    Cập nhật login
+
+[33mcommit 5e1c8a051c79b2c364c15fa13a72672a79a65764[m
+Author: Lâm Thành Long <lamthanhlong70@gmail.com>
+Date:   Sun Mar 17 14:41:56 2019 +0700
+
+    Update LoginActivity.java
+
+[33mcommit 75374eee85616fe224f7e4458f9e8f95dae673df[m
+Author: Lâm Thành Long <lamthanhlong70@gmail.com>
+Date:   Sun Mar 17 14:20:12 2019 +0700
+
+    FixedBugLogin
+
+[33mcommit 6d707260f878bc4f965dfaa480f002a5b40c06e9[m
+Author: Lâm Thành Long <lamthanhlong70@gmail.com>
+Date:   Sun Mar 17 14:10:16 2019 +0700
+
+    CompleteFeatureLocation
+
+[33mcommit a37f07041299c469c5e3d44a4f766592dc47bf5c[m
+Author: unknown <luuthietdan123@gmail.com>
+Date:   Sun Mar 17 10:41:01 2019 +0700
+
+    add Cart
+
+[33mcommit 7a3b3775f841be63c25d693fd9b8a2127d923376[m
+Author: unknown <luuthietdan123@gmail.com>
+Date:   Mon Dec 17 15:29:47 2018 +0700
+
+    update
+
+[33mcommit f1b7cbd890c51bfee3dd78919908835d732042cc[m
+Author: unknown <luuthietdan123@gmail.com>
+Date:   Sun Dec 16 20:56:57 2018 +0700
+
+    Initial commit
